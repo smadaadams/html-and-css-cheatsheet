@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <title>HTML & CSS Cheatsheet</title>
+</head>
+<body>
+    <header>
+        <h1>Smada's <a href="#html-Section">HTML</a> & <a href="#css-Section">CSS</a> Cheatsheet</h1>
+    </header>
+    <main>
+        <section class="html">
+            <h2 id="html-Section">HTML</h2>
+            <table>
+                <tr>
+                    <th class="header-title" colspan=3>Semantic HTML</th>
+                </tr>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><span class="tags">&lt;header&gt;</span></td>
+                    <td>Header</td>
+                    <td>The header element represents introductory content for its nearest ancestor sectioning content or sectioning root element. A header typically contains a group of introductory or navigational aids. When the nearest ancestor sectioning content or sectioning root element is the body element, then it applies to the whole page.</td>
+                </tr>
+                <tr>
+                    <td><span class="tags">&lt;nav&gt;</span></td>
+                    <td>Navigation</td>
+                    <td>Encapsulates the page's navigational links. It is often placed inside the <span class="tags">&lt;header&gt;</span> or <span class="tags">&lt;footer&gt;</span>.</td>
+                </tr>
+                <tr>
+                    <td ><span class="tags">&lt;main&gt;</span></td>
+                    <td>Main</td>
+                    <td>The main element represents the main content of the body of a document or application.</td>
+                </tr>
+                <tr>
+                    <td><span class="tags">&lt;section&gt;</span></td>
+                    <td>Section</td>
+                    <td>The section element represents a generic section of a document or application. A section, in this context, is a thematic grouping of content. Each section should be identified, typically by including a heading ( h1- h6 element) as a child of the section element.</td>
+                </tr>
+                <tr>
+                    <td><span class="tags">&lt;article&gt;</span></td>
+                    <td>Article</td>
+                    <td>The article element represents a complete, or self-contained, composition in a page. This could be a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.</td>
+                </tr>
+                <tr>
+                    <td><span class="tags">&lt;aside&gt;</span></td>
+                    <td>Aside</td>
+                    <td>The aside element represents a section of a page that consists of content that is tangentially related to the content around the aside element, and which could be considered separate from that content. Such sections are often represented as sidebars in printed typography.</td>
+                </tr>
+                <tr>
+                    <td><span class="tags">&lt;figure&gt;</span></td>
+                    <td>Figure</td>
+                    <td>Element used to encapsulate media such as an image, diagram. or code snippet.</td>
+                </tr>
+                <tr>
+                    <td><span class="tags">&lt;figcaption&gt;</span></td>
+                    <td>Figure Caption</td>
+                    <td>Element used to describe the media encapsulated within the <span class="tags">&lt;figure&gt;</span> element</td>
+                </tr>
+                <tr>
+                    <td><span class="tags">&lt;footer&gt;</span></td>
+                    <td>Footer</td>
+                    <td>Defines the footer section of the document</td>
+                </tr>
+            </table>
+        </section>
+        <section class="css">
+            <h2 id="css-Section">CSS</h2>
+            <table class="cssTable">
+                <tr>
+                    <th class="header-title" colspan=3>Text Styling</th>
+                </tr>
+                <tr>
+                    <th>Property</th>
+                    <th>Values</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><span class="tags">font-style:</span></td>
+                    <td><span class="tags">normal</span>, <span class="tags">italic</span>, <span class="tags">oblique</span></td>
+                    <td>Changes style to the values listed. Degrees can be added to oblique value e.g. <span class="tags">oblique 10deg</span>.</td>
+                </tr>
+                <tr>
+                    <td><span class="tags">font-weight:</span></td>
+                    <td><span class="tags">normal</span>, <span class="tags">bold</span>, numeric <span class="tags">100</span> to <span class="tags">900</span></td>
+                    <td>Changes weight of the font to the values listed. Can also use <span class="tags">lighter</span> and <span class="tags">bolder</span>.</td>
+                </tr>
+                <tr>
+                    <td><span class="tags">font-size:</span></td>
+                    <td><span class="tags">12px</span>, <span class="tags">.8em</span>, <span class="tags">80%</span></td>
+                    <td>Changes the size of the font with the options of pixels, em or %.</td>
+                </tr>
+                <tr>
+                    <td><span class="tags">line-height:</span></td>
+                    <td><span class="tags">normal</span>, <span class="tags">3em</span>, <span class="tags">20%</span></td>
+                    <td>Changes the distance between lines of text.</td>
+                </tr>
+                <tr>
+                    <td><span class="tags">text-decoration:</span></td>
+                    <td><span class="tags">none</span>, <span class="tags">underline</span>, <span class="tags">overline</span>, <span class="tags">line-through</span></td>
+                    <td>Adds lines to text such and underline, line above (overline) or a strikethrough.</td>
+                </tr>
+                <tr>
+                    <td><span class="tags">letter-spacing:</span></td>
+                    <td><span class="tags">normal</span>, <span class="tags">2px</span></td>
+                    <td>Changes the distance between letters in text. Defaults or <span class="tags">normal</span> differs by font.</td>
+                </tr>
+                <tr>
+                    <td><span class="tags">font-family:</span></td>
+                    <td><span class="tags">'Times New Roman'</span>, <span class="tags">sans-serif</span></td>
+                    <td>Changes the font type. Add backups of web-safe fonts by using commas between font names. Put quotes around multi-word named fonts.</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <span>Jump to section:</span>
+            <ul>
+                <li><a href="#html-Section">HTML</li>
+                <li><a href="#css-Section">CSS</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

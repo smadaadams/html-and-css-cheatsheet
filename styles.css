@@ -1,0 +1,114 @@
+/* Universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #FAF9F6;
+    font-family: Barlow, sans-serif;
+    text-align: center;
+}
+
+/* header */
+
+h1 {
+    padding: 80px 0 80px 0;
+    font-size: 50px;
+    background-color: #2f4f4f;
+}
+
+/* nav */
+
+header a {
+    background-color: #2f4f4f;
+    text-decoration: underline;
+    text-decoration-thickness: .25em;
+}
+
+header a:hover {
+    text-decoration-thickness: .5em;
+    font-weight: bold;
+    color:#0D0907;
+}
+
+/* main */
+
+/* keeps tables in midle 60% of the page */
+main {
+    margin: 0 20%;
+}
+
+h2 {
+    margin: 40px auto;
+    font-size: 30px;
+}
+
+table {
+    background-color: #FAF9F6;
+    margin: 40px auto;
+}
+
+th {
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #2f4f4f;
+}
+
+/* formats header that spans top row of each table */
+.header-title {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+/* line height increased so code snippet boxes don't overlap */
+td {
+    padding: 15px;
+    text-align: left;
+    color: #fff;
+    min-width: 100px;
+    background-color: #547272;
+    line-height: 1.5;
+}
+
+/* code chunks within tables */
+.tags {
+    font-family: monospace;
+    background-color: #333;
+    border-radius: 8%;
+    padding: 3px;
+}
+
+
+/* footer nav */
+
+footer {
+    padding-top: 50px;
+    background-color: #2f4f4f;
+}
+
+nav, nav ul, nav li, nav span {
+    background-color: #2f4f4f;
+}
+
+nav ul {
+    display: inline-block;
+    margin: 20px 5px 80px 0;
+}
+
+nav li {
+    display: inline-block; 
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    background-color: #2f4f4f;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: .5em;
+    font-weight: bold;
+}
