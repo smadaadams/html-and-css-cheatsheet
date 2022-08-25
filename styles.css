@@ -35,7 +35,7 @@ header a:hover {
 
 /* keeps tables in midle 60% of the page */
 main {
-    margin: 0 20%;
+    margin: 0 auto;
 }
 
 h2 {
@@ -45,7 +45,8 @@ h2 {
 
 table {
     background-color: #FAF9F6;
-    margin: 40px auto;
+    margin: 40px 0;
+    width: 60%;
 }
 
 th {
@@ -112,3 +113,21 @@ footer a:hover {
     text-decoration-thickness: .5em;
     font-weight: bold;
 }
+
+@media (max-width: 1024px) {
+    table {
+      width: 80%;
+    }
+
+    td {
+        min-width: 0;
+    }
+  }
+  @media (max-width: 768px) {
+    table {
+      width: 95%;
+    }
+    td {
+        min-width: 0;
+    }
+  }
